@@ -43,6 +43,8 @@ td, th {
     width: calc((100vw - (12 * 5px)) / 12);
     height: calc((100vh - (12 * 10px)) / 12);
     position: relative;
+    border-style: solid;
+    border-color: #efd0b3;
 }
 th {
     border: 1px solid #fff;
@@ -60,13 +62,13 @@ input {
     border: none;
     display: block;
     position: absolute;
-    top: 2px;
-    left: 2px;
+    top: 3.5px;
+    left: 8px;
     bottom: 2px;
     right: 2px;
     max-width: 100%;
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
+    width: calc(90% - 4px);
+    height: calc(90% - 4px);
     padding: 0;
     margin: 0;
     text-align: center;
