@@ -85,9 +85,7 @@ td.hide {
 
 input:focus,
 input.bad,
-input.good {
-    color: #fff;
-}
+input.good
 
 input:focus {
     background-color: pink;
@@ -97,11 +95,16 @@ input:focus {
 
 input.good {
     opacity: 1;
+    color: #fff;
+    rotate: 3deg;
+    border-radius: 25px;
 }
 input.bad {
     background-color: black!important;
     opacity: 0.7;
     color: #fff!important;
+    rotate:3deg;
+    border-radius: 25px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
