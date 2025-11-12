@@ -164,6 +164,7 @@ input::-webkit-inner-spin-button {
     transition: all 0.2s;
     text-decoration: none;
     font-size: 1rem!important;
+    /* removed the margin for better button position*/
 
 }
 .restart a svg {
