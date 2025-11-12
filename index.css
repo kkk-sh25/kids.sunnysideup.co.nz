@@ -85,7 +85,9 @@ td.hide {
 
 input:focus,
 input.bad,
-input.good
+input.good{
+    color: #fff;
+}
 
 input:focus {
     background-color: pink;
@@ -95,7 +97,6 @@ input:focus {
 
 input.good {
     opacity: 1;
-    color: #fff;
     rotate: 3deg;
     border-radius: 25px;
 }
@@ -127,9 +128,9 @@ input::-webkit-inner-spin-button {
 }
 
 /* Firefox */
-input[type=number] {
+/*input[type=number] {
   -moz-appearance: textfield;
-}
+}*/
 
 
 .y-1 input {background-color: #feed01; color: #000}
