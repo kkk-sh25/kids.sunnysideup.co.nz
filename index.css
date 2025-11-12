@@ -38,6 +38,7 @@ table, tr, th, td {
     margin: 0;
     border: none;
     border-collapse: collapse;
+    
 }
 td, th {
     width: calc((100vw - (12 * 5px)) / 12);
@@ -50,6 +51,8 @@ th {
     border: 1px solid #fff;
     background-color: #fff;
     color: #ddd;
+    border-style: solid;
+    border-color: #efd0b3;
 }
 th.restart, th[scope="row"] {
     width: 1em!important;
@@ -161,7 +164,7 @@ input::-webkit-inner-spin-button {
     transition: all 0.2s;
     text-decoration: none;
     font-size: 1rem!important;
-    margin-left: 7px;
+
 }
 .restart a svg {
     width: 16px;
